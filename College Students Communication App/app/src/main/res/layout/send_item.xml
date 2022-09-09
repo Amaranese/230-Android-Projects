@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/send_item_background"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/nmChat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lumbert"
+                android:fontFamily="@font/robotoregular"
+                android:textColor="@color/lightblue"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:id="@+id/imgChatMessage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/person2"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:id="@+id/chatContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, I have been looking for you"
+                android:textColor="@color/white"
+                android:fontFamily="@font/robotomedium"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/chatTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:15 PM"
+                android:fontFamily="@font/robotomedium"
+                android:textSize="10sp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
