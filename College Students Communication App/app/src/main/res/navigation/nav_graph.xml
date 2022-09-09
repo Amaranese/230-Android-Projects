@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.tuchatapplication.chatclasses.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.tuchatapplication.chatclasses.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/chatRoom"
+        android:name="com.example.tuchatapplication.chatclasses.ChatRoom"
+        android:label="fragment_chat_room"
+        tools:layout="@layout/fragment_chat_room" />
+    <fragment
+        android:id="@+id/verification"
+        android:name="com.example.tuchatapplication.chatclasses.Verification"
+        android:label="fragment_verification"
+        tools:layout="@layout/fragment_verification" />
+    <fragment
+        android:id="@+id/newChatRooms"
+        android:name="com.example.tuchatapplication.chatclasses.NewChatRooms"
+        android:label="fragment_new_chat_rooms"
+        tools:layout="@layout/fragment_new_chat_rooms" />
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.tuchatapplication.chatclasses.Search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>
