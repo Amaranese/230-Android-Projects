@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".chatclasses.ChatRoom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:id="@+id/relBackChats"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_chat_icons"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/left"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                app:tint="@color/primary" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/relBackChats"
+            android:layout_marginLeft="15dp"
+
+            >
+            <TextView
+                android:id="@+id/txtTitleChat"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="University of Nairobi"
+                android:fontFamily="@font/robotobold"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:maxLines="1"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/txtDesc"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hillary"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:fontFamily="@font/robotoregular"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relBot"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_chat_icons"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:tint="@color/primary" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/chat_rel_back"
+            android:layout_above="@id/relBelow"
+
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerChats"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/send_item"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relBelow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/primary"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/send_background"
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="12dp"
+                >
+                <ImageView
+                    android:id="@+id/attach"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_attach_file_24"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="center_vertical"
+                    />
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/imgChat"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/person2"
+                        android:scaleType="fitXY"
+                        android:layout_marginBottom="5dp"
+                        />
+                    <EditText
+                        android:id="@+id/editChat"
+                        android:layout_width="260dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_back"
+                        android:hint="Enter Text"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/arrow_color"
+                        android:fontFamily="@font/robotomedium"
+                        />
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/send"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_send_24"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
