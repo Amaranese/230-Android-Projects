@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".taskViewer.DayViewFragment">
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/task_recycler_view_week"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/sun_button"
+            android:layout_gravity="center"
+            android:text="S"
+            android:layout_width="55dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/mon_button"
+            android:layout_gravity="center"
+            android:text="M"
+            android:layout_width="55dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/tues_button"
+            android:layout_gravity="center"
+            android:text="T"
+            android:layout_width="55dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/wed_button"
+            android:layout_gravity="center"
+            android:text="W"
+            android:layout_width="55dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/thurs_button"
+            android:layout_gravity="center"
+            android:text="T"
+            android:layout_width="55dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/frid_button"
+            android:layout_gravity="center"
+            android:text="F"
+            android:layout_width="55dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/sat_button"
+            android:layout_gravity="center"
+            android:text="S"
+            android:layout_width="55dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/task_recycler_view_week"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttons" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
