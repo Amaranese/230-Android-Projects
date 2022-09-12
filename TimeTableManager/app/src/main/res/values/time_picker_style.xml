@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="timePickerSizeIncrease">
+
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/digital_fonts</item>
+
+
+    </style>
+</resources>
