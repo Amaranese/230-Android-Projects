@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/dayView"
+        android:icon="@drawable/ic_baseline_view_day_24"
+        android:title="Dayview"/>
+
+    <item
+        android:id="@+id/weekView"
+        android:icon="@drawable/ic_baseline_view_week_24"
+        android:title="Weekview"/>
+
+
+
+    <item android:title="Others">
+
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Setting"/>
+            <item
+                android:id="@+id/support"
+                android:icon="@drawable/ic_baseline_support_agent_24"
+                android:title="Support"/>
+            <item
+                android:id="@+id/aboutUs"
+                android:icon="@drawable/ic_baseline_about_us"
+                android:title="About Us"/>
+
+        </menu>
+
+
+
+    </item>
+
+
+
+</menu>
