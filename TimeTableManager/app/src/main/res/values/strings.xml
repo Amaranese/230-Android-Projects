@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TimeTableManager</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="dayView">DayView</string>
+    <string name="weekView">WeekView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="support">For any support and query please contact <a href = "mailto: rafid.ahmed@gmail.com">rafid.ahmed@gmail.com </a> or <a href = "mailto: n.nayeem.rm@gmail.com">n.nayeem.rm@gmail.com</a>  . For further inquiry join our <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">discord server</a> or visit our <a href="https://github.com/nayeemcharx/TimeTableManager">github</a></string>
+
+</resources>
