@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.alejandro.maranes.timetablemanager.taskViewer.DashboardFragment"
+        android:label="dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.alejandro.maranes.timetablemanager.taskViewer.SettingFragment"
+        android:label="setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/dayView"
+        android:name="com.alejandro.maranes.timetablemanager.taskViewer.DayViewFragment"
+        android:label="day_view"
+        tools:layout="@layout/fragment_day_view" />
+    <fragment
+        android:id="@+id/weekView"
+        android:name="com.alejandro.maranes.timetablemanager.taskViewer.WeekViewFragment"
+        android:label="week_view"
+        tools:layout="@layout/fragment_week_view" />
+    <fragment
+        android:id="@+id/support"
+        android:name="com.alejandro.maranes.timetablemanager.taskViewer.SupportFragment"
+        android:label="support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.alejandro.maranes.timetablemanager.taskViewer.AboutUsFragment"
+        android:label="about_us"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>
