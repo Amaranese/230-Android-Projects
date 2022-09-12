@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:clickable="true"
+    android:longClickable="true"
+    android:background="@drawable/round_back_white10_20">
+
+    <TextView
+        android:id="@+id/taskname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="Name"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/taskstart"
+        app:layout_constraintEnd_toStartOf="@id/date_of_task"
+        app:layout_constraintHorizontal_weight=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date_of_task"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/digital_fonts"
+        android:gravity="center_vertical"
+        android:text="date"
+        android:textColor="@color/background_card"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/taskstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight=".5"
+        app:layout_constraintStart_toEndOf="@+id/taskname"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/taskstart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/digital_fonts"
+        android:gravity="center_vertical"
+        android:text="startTime"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/taskend"
+        app:layout_constraintHorizontal_weight=".50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/taskname" />
+
+    <TextView
+        android:id="@+id/taskend"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/digital_fonts"
+        android:gravity="center_vertical"
+        android:text="endTime"
+        android:textColor="@color/background_card"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight=".5"
+        app:layout_constraintStart_toEndOf="@+id/taskstart"
+        app:layout_constraintTop_toBottomOf="@id/taskname" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
