@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="4dp"
+    tools:context=".OrderListFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/order_quantity"
+            android:layout_width="98dp"
+            android:layout_height="66dp"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toEndOf="@+id/order_image"
+            app:layout_constraintTop_toBottomOf="@+id/order_name"
+            app:layout_constraintVertical_bias="0.661">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/order_image"
+            android:layout_width="187dp"
+            android:layout_height="166dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order_name">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/order_name"
+            android:layout_width="396dp"
+            android:layout_height="69dp"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.131">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="93dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="8dp"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceBody1"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/order_quantity"
+            app:layout_constraintTop_toBottomOf="@+id/order_name"
+            app:layout_constraintVertical_bias="1.0">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="162dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="@{() -> OrderViewModel().setItemName('my order')}"
+            android:text="@string/add_order"
+            app:cornerRadius="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.652"
+            app:layout_constraintStart_toEndOf="@+id/order_image" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
