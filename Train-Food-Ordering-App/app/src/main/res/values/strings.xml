@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Train Food App by Abhinav-Kamal</string>
+
+    <string name="order_cupcakes">Order Cupcakes</string>
+    <string name="one_cupcake">One Cupcake</string>
+    <string name="six_cupcakes">Six Cupcakes</string>
+    <string name="twelve_cupcakes">Twelve Cupcakes</string>
+    <string name="choose_flavor">Choose Flavor</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="red_velvet">Red Velvet</string>
+    <string name="salted_caramel">Salted Caramel</string>
+    <string name="coffee">Coffee</string>
+    <string name="special_flavor">Special Flavor</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="choose_pickup_date">Choose Pickup Date</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="send">Send Order to Pantry Car</string>
+    <string name="quantity">Quantity</string>
+    <string name="flavor">Flavor</string>
+    <string name="pickup_date">Pickup date</string>
+    <string name="subtotal_price">Subtotal %s</string>
+    <string name="total_price">Total %s</string>
+    <string name="new_food_order">New Food Order</string>
+    <string name="order_details">Item Name: %1$s  \n Item Price: ₹%2$s \n Quantity: %3$s \n
+        Delivery Slot: %4$s \n Train: %5$s \n Carriage: %6$s \n Seat: %7$s \n Contact Info:-  \n %8$s \n %9$s \n %10$s \n Total Payable Amount: %11$s \n \n Thank you! </string>
+    <plurals name="cupcakes">
+        <item quantity="one">%d cupcake</item>
+        <item quantity="other">%d cupcakes</item>
+    </plurals>
+    <!-- Strings related to login -->
+    <string name="prompt_name">Enter Name </string>
+    <string name="prompt_phone">Enter Phone Number</string>
+    <string name="prompt_address">Enter Address</string>
+    <string name="action_sign_in">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="select">Select</string>
+
+    <string name="train_fragment_label">Select Your Train</string>
+    <string name="carriage_fragment_list">Locate Your Seat</string>
+    <string name="order_fragment_label">Choose Your Order</string>
+
+    <string name="order_label">Your Item</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="delivery_label">Delivery Slot</string>
+    <string name="price_per_order_label">Item Price</string>
+
+
+    <string name="add_order">Add Order</string>
+    <string name="train_1_name">Palace on Wheels</string>
+    <string name="train_1_route">New Delhi-Jaipur-Jodhpur-Agra</string>
+
+    <string name="train_2_name">Golden Chariot</string>
+    <string name="train_2_route">Bangalore-Mysore-Vasco (Goa)</string>
+
+    <string name="train_3_name">Maharaja Express</string>
+    <string name="train_3_route">Delhi-Agra-Jaipur-Bikaner-Udaipur-Mumbai</string>
+
+    <string name="train_4_name">Deccan Odyssey</string>
+    <string name="train_4_route">Mumbai-Goa-Kolhapur-Nashik</string>
+
+    <string name="train_5_name">Maitree Express</string>
+    <string name="train_5_route">Kolkata-Dhaka</string>
+
+    <string name="train_6_name">Howrah-Jaisalmer Express</string>
+    <string name="train_6_route">Howrah-Gaya-Delhi-Jaisalmer </string>
+
+    <string name="train_7_name">Vande Bharat Express</string>
+    <string name="train_7_route">New Delhi-Kanpur-Praygraj-Varanasi </string>
+
+    <string name="train_8_name">Himachal Toy Train</string>
+    <string name="train_8_route">Kalka-Solan-Shimla </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="carriage_numbers">
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S5</item>
+        <item>S6</item>
+        <item>S7</item>
+        <item>S8</item>
+        <item>S9</item>
+        <item>S10</item>
+        <item>S11</item>
+        <item>S12</item>
+        <item>S13</item>
+        <item>S14</item>
+    </string-array>
+
+    <string-array name="seat_numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="order_name_1">Chicken Nuggets</string>
+    <string name="order_quantity_1">12 Pc.</string>
+    <string name="order_price_1">₹199</string>
+
+    <string name="order_name_2">Chicken Wings</string>
+    <string name="order_quantity_2">12 Pc.</string>
+    <string name="order_price_2">₹269</string>
+
+    <string name="order_name_3">Pop Nuggets Combo</string>
+    <string name="order_quantity_3">Comb.</string>
+    <string name="order_price_3">₹399</string>
+
+    <string name="order_name_4">Famous Bowl</string>
+    <string name="order_quantity_4">150gms</string>
+    <string name="order_price_4">₹199</string>
+
+    <string name="order_name_5">Chicken Tenders</string>
+    <string name="order_quantity_5">8 Pc.</string>
+    <string name="order_price_5">₹249</string>
+
+    <string name="order_name_6">Chicken Sandwich Box</string>
+    <string name="order_quantity_6">Combo</string>
+    <string name="order_price_6">₹459</string>
+
+    <string name="order_name_7">Chicken Bucket</string>
+    <string name="order_quantity_7">12 Pc.</string>
+    <string name="order_price_7">₹599</string>
+
+    <string name="order_name_8">Fantastic Four Combo</string>
+    <string name="order_quantity_8">Combo</string>
+    <string name="order_price_8">₹379</string>
+
+    <string name="order_name_9">Fries</string>
+    <string name="order_quantity_9">150gm.</string>
+    <string name="order_price_9">₹139</string>
+
+    <string name="order_name_10">Chicken Burger</string>
+    <string name="order_quantity_10">1 Pc.</string>
+    <string name="order_price_10">₹289</string>
+
+    <string name="carriage_number">Carriage No:- %s</string>
+    <string name="seat_number">Seat No:- %s</string>
+
+
+</resources>
