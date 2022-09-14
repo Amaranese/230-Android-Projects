@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.alejandro.maranes.TrainFoodOrder.StartFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_trainListFragment"
+            app:destination="@id/trainListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickupFragment"
+        android:name="com.alejandro.maranes.TrainFoodOrder.PickupFragment"
+        android:label="@string/choose_pickup_date"
+        tools:layout="@layout/fragment_pickup">
+        <action
+            android:id="@+id/action_pickupFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+        <action
+            android:id="@+id/action_pickupFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.alejandro.maranes.TrainFoodOrder.SummaryFragment"
+        android:label="@string/order_summary"
+        tools:layout="@layout/fragment_summary">
+        <action
+            android:id="@+id/action_summaryFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainListFragment"
+        android:name="com.alejandro.maranes.TrainFoodOrder.TrainListFragment"
+        android:label="@string/train_fragment_label"
+        tools:layout="@layout/fragment_train_list">
+        <action
+            android:id="@+id/action_trainListFragment_to_carriageSeatFragment"
+            app:destination="@id/carriageSeatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderListFragment"
+        android:name="com.alejandro.maranes.TrainFoodOrder.OrderListFragment"
+        android:label="@string/order_fragment_label"
+        tools:layout="@layout/fragment_order_list">
+        <action
+            android:id="@+id/action_orderListFragment_to_pickupFragment"
+            app:destination="@id/pickupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carriageSeatFragment"
+        android:name="com.alejandro.maranes.TrainFoodOrder.CarriageSeatFragment"
+        android:label="@string/carriage_fragment_list"
+        tools:layout="@layout/fragment_carriage_seat">
+        <action
+            android:id="@+id/action_carriageSeatFragment_to_orderListFragment"
+            app:destination="@id/orderListFragment" />
+        <action
+            android:id="@+id/action_carriageSeatFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+</navigation>
