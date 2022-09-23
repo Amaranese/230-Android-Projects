@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vonage Parental Control</string>
+    <string name="register">REGISTER</string>
+    <string name="enable_role">ENABLE REDIRECTION</string>
+    <string name="sp_name">VPC</string>
+    <string name="my_phone_number">My Phone Number</string>
+    <string name="server_address">SERVER_ADDRESS</string>
+</resources>
