@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    tools:context=".student.StudentDashboard">
+
+    <RelativeLayout
+        android:id="@+id/ll_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background4"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_restAppBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Dashboard"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_showAllAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_appBar"
+        tools:listitem="@layout/student_layout_for_parent" />
+
+
+</RelativeLayout>

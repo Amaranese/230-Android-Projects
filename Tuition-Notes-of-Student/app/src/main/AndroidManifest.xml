@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tuitionnotesofthestudent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/teacher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/teacher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TuitionNotesOfTheStudent">
+        <activity
+            android:name=".tutor.AddParent"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.AddStudent"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.AddUser"
+            android:exported="true" />
+        <activity
+            android:name=".parent.ParentResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorSignInWithGoogle"
+            android:exported="true" />
+        <activity
+            android:name=".parent.ParentDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".parent.ParentSignin"
+            android:exported="true" />
+        <activity
+            android:name=".student.StudentSignin"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorSignin"
+            android:exported="true" />
+        <activity
+            android:name=".tutor.TutorSignUp"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

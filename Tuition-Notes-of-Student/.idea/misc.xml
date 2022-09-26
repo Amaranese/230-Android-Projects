@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/drawable/bg_rounded_input_field.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_add_parent.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_add_student.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_add_user.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_parent_dashboard.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_parent_reset_password.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_parent_signin.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_student_dashboard.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_student_google_signin.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_student_reset_password.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_student_signin.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_tutor_dashboard.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_tutor_reset_password.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_tutor_sign_in_with_google.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_tutor_sign_up.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/activity_tutor_signin.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/custom_remarks.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/layout_student.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/TuitionnotesoftheStudent/app/src/main/res/layout/student_layout_for_parent.xml" value="0.2869791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
