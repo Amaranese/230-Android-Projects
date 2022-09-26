@@ -1,11 +1,11 @@
-package com.alejandro.maranes.timetablemanager.notification
+package com.example.timetablemanager.notification
 
 import android.app.NotificationManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
-import com.alejandro.maranes.timetablemanager.R
+import com.example.timetablemanager.R
 
 const val notificationID = 1
 const val channelID = "channel1"

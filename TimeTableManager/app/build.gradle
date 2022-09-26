@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.alejandro.maranes.cashbook"
+        applicationId "com.example.cashbook"
         minSdkVersion 27
         targetSdkVersion 30
         versionCode 1

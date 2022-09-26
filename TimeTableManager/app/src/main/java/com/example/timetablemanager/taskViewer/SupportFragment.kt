@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskViewer
+package com.example.timetablemanager.taskViewer
 
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.alejandro.maranes.timetablemanager.R
+import com.example.timetablemanager.R
 
 class SupportFragment : Fragment() {
 

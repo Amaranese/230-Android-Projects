@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskScheduler
+package com.example.timetablemanager.taskScheduler
 
 import android.app.*
 import android.content.Context
@@ -8,13 +8,13 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.*
 import androidx.appcompat.widget.SwitchCompat
-import com.alejandro.maranes.timetablemanager.*
-import com.alejandro.maranes.timetablemanager.notification.Notification
-import com.alejandro.maranes.timetablemanager.databaseHandler.DatabaseOperations
-import com.alejandro.maranes.timetablemanager.notification.channelID
-import com.alejandro.maranes.timetablemanager.notification.messageExtra
-import com.alejandro.maranes.timetablemanager.notification.notificationID
-import com.alejandro.maranes.timetablemanager.notification.titleExtra
+import com.example.timetablemanager.*
+import com.example.timetablemanager.notification.Notification
+import com.example.timetablemanager.databaseHandler.DatabaseOperations
+import com.example.timetablemanager.notification.channelID
+import com.example.timetablemanager.notification.messageExtra
+import com.example.timetablemanager.notification.notificationID
+import com.example.timetablemanager.notification.titleExtra
 import java.util.*
 
 class TaskEditorActivity : AppCompatActivity() {

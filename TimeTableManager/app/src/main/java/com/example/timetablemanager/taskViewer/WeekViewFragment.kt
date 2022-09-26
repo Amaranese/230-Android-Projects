@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskViewer
+package com.example.timetablemanager.taskViewer
 
 import android.os.Bundle
 import android.util.Log
@@ -9,11 +9,11 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.alejandro.maranes.timetablemanager.R
-import com.alejandro.maranes.timetablemanager.databaseHandler.DatabaseInfo
-import com.alejandro.maranes.timetablemanager.databaseHandler.DatabaseOperations
-import com.alejandro.maranes.timetablemanager.taskScheduler.Task
-import com.alejandro.maranes.timetablemanager.taskViewer.adapters.TaskAdapter
+import com.example.timetablemanager.R
+import com.example.timetablemanager.databaseHandler.DatabaseInfo
+import com.example.timetablemanager.databaseHandler.DatabaseOperations
+import com.example.timetablemanager.taskScheduler.Task
+import com.example.timetablemanager.taskViewer.adapters.TaskAdapter
 import java.util.*
 
 

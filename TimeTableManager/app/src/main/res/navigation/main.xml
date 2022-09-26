@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/dashboard"
-        android:name="com.alejandro.maranes.timetablemanager.taskViewer.DashboardFragment"
+        android:name="com.example.timetablemanager.taskViewer.DashboardFragment"
         android:label="dashboard"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/setting"
-        android:name="com.alejandro.maranes.timetablemanager.taskViewer.SettingFragment"
+        android:name="com.example.timetablemanager.taskViewer.SettingFragment"
         android:label="setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
         android:id="@+id/dayView"
-        android:name="com.alejandro.maranes.timetablemanager.taskViewer.DayViewFragment"
+        android:name="com.example.timetablemanager.taskViewer.DayViewFragment"
         android:label="day_view"
         tools:layout="@layout/fragment_day_view" />
     <fragment
         android:id="@+id/weekView"
-        android:name="com.alejandro.maranes.timetablemanager.taskViewer.WeekViewFragment"
+        android:name="com.example.timetablemanager.taskViewer.WeekViewFragment"
         android:label="week_view"
         tools:layout="@layout/fragment_week_view" />
     <fragment
         android:id="@+id/support"
-        android:name="com.alejandro.maranes.timetablemanager.taskViewer.SupportFragment"
+        android:name="com.example.timetablemanager.taskViewer.SupportFragment"
         android:label="support"
         tools:layout="@layout/fragment_support" />
     <fragment
         android:id="@+id/aboutUs"
-        android:name="com.alejandro.maranes.timetablemanager.taskViewer.AboutUsFragment"
+        android:name="com.example.timetablemanager.taskViewer.AboutUsFragment"
         android:label="about_us"
         tools:layout="@layout/fragment_about_us" />
 </navigation>

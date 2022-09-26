@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskViewer.adapters
+package com.example.timetablemanager.taskViewer.adapters
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -8,10 +8,10 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.alejandro.maranes.timetablemanager.R
-import com.alejandro.maranes.timetablemanager.databaseHandler.DatabaseOperations
-import com.alejandro.maranes.timetablemanager.taskScheduler.Task
-import com.alejandro.maranes.timetablemanager.taskScheduler.TaskEditorActivity
+import com.example.timetablemanager.R
+import com.example.timetablemanager.databaseHandler.DatabaseOperations
+import com.example.timetablemanager.taskScheduler.Task
+import com.example.timetablemanager.taskScheduler.TaskEditorActivity
 
 class TaskAdapter(private val taskList: ArrayList<Task>, val activity: FragmentActivity?):
     RecyclerView.Adapter<TaskAdapter.ViewHolder>() {

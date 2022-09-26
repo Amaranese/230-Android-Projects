@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager
+package com.example.timetablemanager
 
 import org.junit.Test
 

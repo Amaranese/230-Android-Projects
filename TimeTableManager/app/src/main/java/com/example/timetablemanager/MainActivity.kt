@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager
+package com.example.timetablemanager
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,7 +11,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import com.alejandro.maranes.timetablemanager.taskScheduler.TaskEditorActivity
+import com.example.timetablemanager.taskScheduler.TaskEditorActivity
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {

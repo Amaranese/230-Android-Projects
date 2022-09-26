@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskScheduler
+package com.example.timetablemanager.taskScheduler
 
 import java.util.*
 

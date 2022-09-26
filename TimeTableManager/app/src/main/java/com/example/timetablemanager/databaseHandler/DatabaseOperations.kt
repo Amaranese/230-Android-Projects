@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.databaseHandler
+package com.example.timetablemanager.databaseHandler
 
 import android.content.ContentValues
 import android.content.Context
@@ -6,7 +6,7 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.provider.BaseColumns
-import com.alejandro.maranes.timetablemanager.taskScheduler.Task
+import com.example.timetablemanager.taskScheduler.Task
 
 class DatabaseOperations(context: Context): SQLiteOpenHelper(
     context, DATABASE_NAME, null, DATABASE_VERSION) {

@@ -1,11 +1,11 @@
-package com.alejandro.maranes.timetablemanager.taskViewer
+package com.example.timetablemanager.taskViewer
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.alejandro.maranes.timetablemanager.R
+import com.example.timetablemanager.R
 
 
 class AboutUsFragment : Fragment() {

@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskViewer
+package com.example.timetablemanager.taskViewer
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.SwitchCompat
-import com.alejandro.maranes.timetablemanager.GlobalVariables
-import com.alejandro.maranes.timetablemanager.R
+import com.example.timetablemanager.GlobalVariables
+import com.example.timetablemanager.R
 
 class SettingFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.alejandro.maranes.timetablemanager.taskViewer
+package com.example.timetablemanager.taskViewer
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import com.alejandro.maranes.timetablemanager.R
-import com.alejandro.maranes.timetablemanager.taskScheduler.TaskEditorActivity
+import com.example.timetablemanager.R
+import com.example.timetablemanager.taskScheduler.TaskEditorActivity
 
 
 class DashboardFragment : Fragment() {
