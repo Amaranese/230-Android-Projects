@@ -9,7 +9,7 @@
     <data>
         <variable
             name="trainListFragment"
-            type="com.alejandro.maranes.TrainFoodOrder.TrainListFragment" />
+            type="com.example.TrainFoodOrder.TrainListFragment" />
     </data>
     <com.google.android.material.card.MaterialCardView
 

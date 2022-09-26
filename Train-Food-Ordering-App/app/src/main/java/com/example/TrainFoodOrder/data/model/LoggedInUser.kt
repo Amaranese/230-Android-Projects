@@ -1,4 +1,4 @@
-package com.alejandro.maranes.TrainFoodOrder.data.model
+package com.example.TrainFoodOrder.data.model
 
 
 data class LoggedInUser(

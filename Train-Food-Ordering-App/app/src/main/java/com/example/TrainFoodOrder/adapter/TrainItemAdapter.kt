@@ -1,4 +1,4 @@
-package com.alejandro.maranes.TrainFoodOrder.adapter
+package com.example.TrainFoodOrder.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.alejandro.maranes.TrainFoodOrder.R
-import com.alejandro.maranes.TrainFoodOrder.data.model.Trains
-import com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel
+import com.example.TrainFoodOrder.R
+import com.example.TrainFoodOrder.data.model.Trains
+import com.example.TrainFoodOrder.model.OrderViewModel
 
 class TrainItemAdapter(private val context: Context, private val dataset:List<Trains>,private val sharedViewModel: OrderViewModel):
     RecyclerView.Adapter<TrainItemAdapter.ItemViewHolder>() {

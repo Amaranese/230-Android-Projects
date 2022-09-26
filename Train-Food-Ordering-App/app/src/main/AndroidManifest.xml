@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alejandro.maranes.TrainFoodOrder">
+    package="com.example.TrainFoodOrder">
     <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
@@ -26,7 +26,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cupcake">
         <activity
-            android:name="com.alejandro.maranes.TrainFoodOrder.MainActivity"
+            android:name="com.example.TrainFoodOrder.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,7 +1,7 @@
-package com.alejandro.maranes.TrainFoodOrder
+package com.example.TrainFoodOrder
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel
+import com.example.TrainFoodOrder.model.OrderViewModel
 import junit.framework.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test

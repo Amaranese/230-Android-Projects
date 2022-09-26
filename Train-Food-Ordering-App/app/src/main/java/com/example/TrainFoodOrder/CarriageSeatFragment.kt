@@ -1,4 +1,4 @@
-package com.alejandro.maranes.TrainFoodOrder
+package com.example.TrainFoodOrder
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,8 +9,8 @@ import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.alejandro.maranes.TrainFoodOrder.databinding.FragmentCarriageSeatBinding
-import com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel
+import com.example.TrainFoodOrder.databinding.FragmentCarriageSeatBinding
+import com.example.TrainFoodOrder.model.OrderViewModel
 
 class CarriageSeatFragment : Fragment() {
     private var binding:FragmentCarriageSeatBinding?= null

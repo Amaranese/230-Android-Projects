@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alejandro.maranes.TrainFoodOrder
+package com.example.TrainFoodOrder
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,8 +22,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.alejandro.maranes.TrainFoodOrder.databinding.FragmentPickupBinding
-import com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel
+import com.example.TrainFoodOrder.databinding.FragmentPickupBinding
+import com.example.TrainFoodOrder.model.OrderViewModel
 
 /**
  * [PickupFragment] allows the user to choose a pickup date for the cupcake order.

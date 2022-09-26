@@ -23,11 +23,11 @@
     <data>
         <variable
             name="viewModel"
-            type="com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel" />
+            type="com.example.TrainFoodOrder.model.OrderViewModel" />
 
         <variable
             name="summaryFragment"
-            type="com.alejandro.maranes.TrainFoodOrder.SummaryFragment" />
+            type="com.example.TrainFoodOrder.SummaryFragment" />
     </data>
 
     <ScrollView

@@ -1,4 +1,4 @@
-package com.alejandro.maranes.TrainFoodOrder
+package com.example.TrainFoodOrder
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.alejandro.maranes.TrainFoodOrder.adapter.OrderItemAdapter
-import com.alejandro.maranes.TrainFoodOrder.data.OrdersDataSource
-import com.alejandro.maranes.TrainFoodOrder.databinding.FragmentOrderListBinding
-import com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel
+import com.example.TrainFoodOrder.adapter.OrderItemAdapter
+import com.example.TrainFoodOrder.data.OrdersDataSource
+import com.example.TrainFoodOrder.databinding.FragmentOrderListBinding
+import com.example.TrainFoodOrder.model.OrderViewModel
 
 class OrderListFragment: Fragment() {
 

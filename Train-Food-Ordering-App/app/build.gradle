@@ -8,7 +8,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.alejandro.maranes.cupcake"
+        applicationId "com.example.cupcake"
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 1

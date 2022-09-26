@@ -1,6 +1,6 @@
-package com.alejandro.maranes.TrainFoodOrder.data
-import com.alejandro.maranes.TrainFoodOrder.R
-import com.alejandro.maranes.TrainFoodOrder.data.model.Trains
+package com.example.TrainFoodOrder.data
+import com.example.TrainFoodOrder.R
+import com.example.TrainFoodOrder.data.model.Trains
 
 class TrainsDatasource {
     fun loadTrains():List<Trains> {

@@ -1,7 +1,7 @@
-package com.alejandro.maranes.TrainFoodOrder.data
+package com.example.TrainFoodOrder.data
 
-import com.alejandro.maranes.TrainFoodOrder.R
-import com.alejandro.maranes.TrainFoodOrder.data.model.Orders
+import com.example.TrainFoodOrder.R
+import com.example.TrainFoodOrder.data.model.Orders
 
 class OrdersDataSource {
 

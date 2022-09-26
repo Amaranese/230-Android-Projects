@@ -20,7 +20,7 @@
     app:startDestination="@id/startFragment">
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.alejandro.maranes.TrainFoodOrder.StartFragment"
+        android:name="com.example.TrainFoodOrder.StartFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_start">
         <action
@@ -29,7 +29,7 @@
     </fragment>
     <fragment
         android:id="@+id/pickupFragment"
-        android:name="com.alejandro.maranes.TrainFoodOrder.PickupFragment"
+        android:name="com.example.TrainFoodOrder.PickupFragment"
         android:label="@string/choose_pickup_date"
         tools:layout="@layout/fragment_pickup">
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/summaryFragment"
-        android:name="com.alejandro.maranes.TrainFoodOrder.SummaryFragment"
+        android:name="com.example.TrainFoodOrder.SummaryFragment"
         android:label="@string/order_summary"
         tools:layout="@layout/fragment_summary">
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/trainListFragment"
-        android:name="com.alejandro.maranes.TrainFoodOrder.TrainListFragment"
+        android:name="com.example.TrainFoodOrder.TrainListFragment"
         android:label="@string/train_fragment_label"
         tools:layout="@layout/fragment_train_list">
         <action
@@ -63,7 +63,7 @@
     </fragment>
     <fragment
         android:id="@+id/orderListFragment"
-        android:name="com.alejandro.maranes.TrainFoodOrder.OrderListFragment"
+        android:name="com.example.TrainFoodOrder.OrderListFragment"
         android:label="@string/order_fragment_label"
         tools:layout="@layout/fragment_order_list">
         <action
@@ -72,7 +72,7 @@
     </fragment>
     <fragment
         android:id="@+id/carriageSeatFragment"
-        android:name="com.alejandro.maranes.TrainFoodOrder.CarriageSeatFragment"
+        android:name="com.example.TrainFoodOrder.CarriageSeatFragment"
         android:label="@string/carriage_fragment_list"
         tools:layout="@layout/fragment_carriage_seat">
         <action

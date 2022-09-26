@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alejandro.maranes.TrainFoodOrder
+package com.example.TrainFoodOrder
 
 import android.content.Context
 import android.os.Bundle
@@ -24,8 +24,8 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.alejandro.maranes.TrainFoodOrder.databinding.FragmentStartBinding
-import com.alejandro.maranes.TrainFoodOrder.model.OrderViewModel
+import com.example.TrainFoodOrder.databinding.FragmentStartBinding
+import com.example.TrainFoodOrder.model.OrderViewModel
 
 
 
